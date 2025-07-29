@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jason Brain - Entertainment Services</title>
+  <meta name="description" content="Explore Jason Brain's entertainment services, including wedding DJ, photobooth, and more. Based in Haliburton, Ontario.">
+  <meta name="keywords" content="Jason Brain, wedding DJ, photobooth, Haliburton entertainment, Ontario services">
+  <meta name="author" content="Jason Brain">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="header-background"></div>
+    <div class="header-gradient"></div>
+    <canvas class="lights"></canvas>
+    <div class="header-content">
+      <h1 id="header-title">Jason Brain - Your Entertainment Expert</h1>
+      <p>Bringing joy and vibes to Haliburton, Minden & Kawartha Lakes</p>
+      <button class="cta-button" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get Started</button>
+    </div>
+  </header>
+  <div class="container">
+    <section class="about">
+      <h2>About Jason Brain</h2>
+      <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; margin: 2rem 0;">
+        <div style="flex: 1; min-width: 300px;">
+          <img src="https://weddingdj.jasonbrain.com/images/jason.jpg" alt="Jason Brain - Entertainment Professional" style="width: 100%; max-width: 400px; border-radius: 15px; border: 3px solid #291259; box-shadow: 0 8px 24px rgba(0,0,0,0.15);">
+        </div>
+        <div style="flex: 2; min-width: 300px; text-align: left;">
+          <p style="font-size: 1.2rem; line-height: 1.6; margin-bottom: 1.5rem; color: #444;">
+            <strong>Over 30 years crafting unforgettable experiences.</strong>
+          </p>
+          <p style="margin-bottom: 1rem;">
+            From legendary nightclub sets to personalized wedding celebrations, I bring a wealth of experience to every event.
+          </p>
+          <p style="margin-bottom: 1rem;">
+            Explore my services and let’s create something special together.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <h2>My Services</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin: 2rem 0;">
+        <div style="background: white; border-radius: 15px; padding: 2rem; box-shadow: 0 8px 24px rgba(0,0,0,0.1); border: 2px solid #f0f0f0; text-align: center;">
+          <h3 style="color: #291259;">Wedding DJ</h3>
+          <p>Custom playlists, RGB lights, and fog effects for your big day.</p>
+          <a href="https://weddingdj.jasonbrain.com" style="display: inline-block; background: #8146ff; color: white; padding: 0.75rem 1.5rem; border-radius: 10px; text-decoration: none;">Learn More</a>
+        </div>
+        <div style="background: white; border-radius: 15px; padding: 2rem; box-shadow: 0 8px 24px rgba(0,0,0,0.1); border: 2px solid #f0f0f0; text-align: center;">
+          <h3 style="color: #291259;">Photo Booth</h3>
+          <p>Capture the fun with professional photo booth services.</p>
+          <a href="https://photobooth.jasonbrain.com" style="display: inline-block; background: #8146ff; color: white; padding: 0.75rem 1.5rem; border-radius: 10px; text-decoration: none;">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Contact Jason Brain</h2>
+      <div style="background: #f8f4ff; padding: 2rem; border-radius: 15px; box-shadow: 0 8px 24px rgba(0,0,0,0.1); margin-bottom: 2rem; text-align: center; border-left: 4px solid #8146ff;">
+        <p style="margin-bottom: 0; color: #666; font-size: 1.1rem; line-height: 1.6; max-width: 800px; margin-left: auto; margin-right: auto;">
+          Ready to bring your event to life? Reach out today!
+        </p>
+      </div>
+      <div style="text-align: center;">
+        <a href="mailto:jason@weddingdj.jasonbrain.com" style="display: inline-block; background: #8146ff; color: white; padding: 1rem 2rem; border-radius: 10px; text-decoration: none;">Email Me</a>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>© 2025 Jason Brain | Entertainment Services | <a href="https://jasonbrain.com">Home</a></p>
+  </footer>
+  <button class="scroll-to-top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
